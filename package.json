@@ -12,6 +12,6 @@
         "start": "node index.js"
     },
     "dependencies": {
-        "azure-keyvault": "^3.0.4-preview"
+        "hapi": "^16.5.2"
     }
 }
