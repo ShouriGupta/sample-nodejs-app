@@ -10,7 +10,10 @@ server.route({
     method: 'GET',
     path: '/hello',
     handler: function (request, reply) {
-    	reply("Hello World")
+        let int = Math.floor(Math.random() * 5 * 1000);
+        setTimeout(() => {
+            reply("Hello World " + int/1000);
+        }, int);
     }
 });
 
